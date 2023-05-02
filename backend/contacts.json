@@ -1,46 +1,24 @@
-[{
-  "_id": {
-    "$oid": "6446dbf8711cf5274556a17f"
-  },
+{
+  "contact": {
   "firstName": "Lily",
   "lastName": "Huang",
   "email": "lilyhuang@byui.edu",
   "birthday": "5/23",
   "favoriteColor": "pink"
-},{
-  "_id": {
-    "$oid": "6447f51e20cb130f6339f185"
-  },
+},
+"contact1": {
   "firstName": "Derek",
   "lastName": "Earl",
   "email": "ear17004@byui.edu",
   "birthday": "10/17",
   "favoriteColor": "Purple"
-},{
-  "_id": {
-    "$oid": "6447f67a20cb130f6339f186"
-  },
-  "firstName": "Andy",
-  "lastName": "Hsieh",
-  "email": "hsi00000@byui.edu",
-  "birthday": "6/15",
-  "favoriteColor": "Blue"
-},{
-  "_id": {
-    "$oid": "6447f7fe20cb130f6339f187"
-  },
+},
+"contact2":{
+ 
   "firstName": "Kelin",
   "lastName": "Tang",
   "email": "tan20001@byui.edu",
   "birthday": "4/28",
   "favoriteColor": "Black"
-},{
-  "_id": {
-    "$oid": "6447f8ef20cb130f6339f188"
-  },
-  "firstName": "Chloe",
-  "lastName": "Huang",
-  "email": "hua17001@byui.edu",
-  "birthday": "8/17",
-  "favoriteColor": "Pink"
-}]
+}
+}
