@@ -18,6 +18,14 @@ GET http://localhost:8080/contacts/644ffb9a2f2f34af0cd21854
 "favoriteColor":"Pink"
 }
 
+{
+"firstName": "Andy",
+  "lastName": "Tang",
+  "email": "and20001@byui.edu",
+  "birthday": "4/15",
+  "favoriteColor": "Black"
+} 
+
 ### Update contact PUT http://localhost:8080/contacts/644ffb9a2f2f34af0cd21854 HTTP/1.1 content-type: application/json
 
 {
