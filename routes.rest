@@ -8,12 +8,25 @@ GET http://localhost:8080/contacts/644ffb8b2f2f34af0cd21853
 ###
 GET http://localhost:8080/contacts/644ffb9a2f2f34af0cd21854
 
-// PRODUCTION Deploy
-###
-GET https://cse341-spring23-j0zc.onrender.com/contacts
-###
-GET https://cse341-spring23-j0zc.onrender.com/contacts/644ffb6f2f2f34af0cd21852
-###
-GET https://cse341-spring23-j0zc.onrender.com/contacts/644ffb8b2f2f34af0cd21853
-###
-GET https://cse341-spring23-j0zc.onrender.com/contacts/644ffb9a2f2f34af0cd21854
+### Create contact POST http://localhost:8080/contacts HTTP/1.1 content-type: application/json
+
+{
+"firstName":"Lily", 
+"lastName":"Huang", 
+"email":"huang20@byui.edu", 
+"birthday":"5/23", 
+"favoriteColor":"Pink"
+}
+
+### Update contact PUT http://localhost:8080/contacts/644ffb9a2f2f34af0cd21854 HTTP/1.1 content-type: application/json
+
+{
+"firstName": "Kelin",
+  "lastName": "Tang",
+  "email": "tan20001@byui.edu",
+  "birthday": "4/28",
+  "favoriteColor": "Blue"
+} 
+### DELETE contact DELETE http://localhost:8080/contacts/644ffb6f2f2f34af0cd21852 HTTP/1.1
+
+
